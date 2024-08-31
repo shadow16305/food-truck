@@ -22,7 +22,7 @@ export const Footer = () => {
             <BiCalendar /> Book and Event
           </Link>
           <div className="bg-white rounded-lg text-dark-red w-full lg:w-[30%] flex items-center justify-center gap-x-2 py-4">
-            <BiCalendar /> +1 ( 416) 388-5847
+            <BiCalendar /> +1 (416) 388-5847
           </div>
           <a
             href="mailto:atlasturkishcuisine@gmail.com"
@@ -35,7 +35,7 @@ export const Footer = () => {
       <div className="border-t border-t-neutral-300 text-neutral-300 py-8 mt-12">
         <div
           className={cn(
-            "w-11/12 lg:w-[86%] mx-auto relative flex flex-col lg:flex-row items-center justify-between",
+            "w-11/12 lg:w-[86%] mx-auto relative flex flex-col lg:flex-row items-center justify-between font-light",
             dmSans.className
           )}>
           <div className="flex flex-col lg:flex-row items-center gap-y-2 gap-x-6 text-lg">
