@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <section className="bg-yellow-cus relative lg:h-[91vh] pt-32 pb-20 lg:py-0">
       <div className="max-w-[91%] lg:max-w-[86%] mx-auto flex items-center h-full">
-        <div className="max-w-[600px] lg:w-1/2 flex flex-col">
+        <div className="max-w-[600px] md:w-1/2 flex flex-col">
           <span className={cn("text-[22px] font-medium", dmSans.className)}>Genuine Flavors in Every Bite</span>
           <h1 className={cn("text-3xl lg:text-6xl text-red-cus mt-2", mrAlex.className)}>
             Authentic turkish street sandwiches
@@ -29,7 +29,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="w-[49%] h-full absolute top-0 right-0 hidden lg:block">
+      <div className="w-[49%] h-full absolute top-0 right-0 hidden md:block">
         <Image src="/images/hero-img.jpg" alt="hero image" fill className="object-cover rounded-l-[261px]" />
       </div>
     </section>

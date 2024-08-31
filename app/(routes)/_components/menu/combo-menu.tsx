@@ -6,8 +6,13 @@ export const ComboMenu = () => {
   return (
     <div className="flex flex-col gap-y-10 lg:flex-row justify-between mt-10">
       {combo_menu.map((item, index) => (
-        <div key={index} className={cn("flex flex-col gap-y-4 lg:w-[30%]", dmSans.className)}>
-          <Image src={item.imgSrc} alt={item.name} width={148} height={40} />
+        <div
+          key={index}
+          className={cn(
+            "flex flex-col gap-y-4 lg:w-[30%] shadow-lg px-4 py-6 lg:shadow-none lg:p-0 rounded-lg",
+            dmSans.className
+          )}>
+          <Image src={item.imgSrc} alt={item.name} width={148} height={40} className="rounded-lg" />
           <h4 className="text-[1.75rem] text-red-cus font-bold">{item.name}</h4>
           <div className="space-y-2">
             <div

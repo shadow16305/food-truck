@@ -1,6 +1,4 @@
-import { cold_drinks, combo_menu, menu } from "@/constants/content";
 import { cn, dmSans, mrAlex } from "@/lib/utils";
-import Image from "next/image";
 import { DefMenu } from "./def-menu";
 import { ComboMenu } from "./combo-menu";
 import { ColdDrinks } from "./cold-drinks";

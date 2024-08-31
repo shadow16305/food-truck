@@ -7,7 +7,7 @@ import { MdOutlineEmail } from "react-icons/md";
 export const Contact = () => {
   return (
     <section className="mt-20 lg:mt-52 w-11/12 lg:w-[86%] mx-auto space-y-12" id="contact">
-      <div className={cn("flex flex-col items-center gap-y-5 text-center", dmSans.className)}>
+      <div className={cn("flex flex-col items-center gap-y-4 text-center", dmSans.className)}>
         <span className={cn("text-red-cus", mrAlex.className)}>CONTACT</span>
         <h5 className="text-[2rem] font-bold text-dark-red">Setup The Event</h5>
         <p className="text-neutral-cus">

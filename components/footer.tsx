@@ -8,7 +8,7 @@ export const Footer = () => {
     <footer className="bg-dark-red pt-12 lg:pt-[70px] mt-20">
       <div className={cn("w-11/12 lg:w-[86%] mx-auto relative", dmSans.className)}>
         <div className="flex justify-between items-center">
-          <h6 className="text-white text-[2rem] max-w-[580px]">
+          <h6 className="text-white text-2xl lg:text-[2rem] lg:leading-tight max-w-[86%] lg:max-w-[580px]">
             Come hungry, leave happy—let us bring the joy of Turkish cuisine to your event.
           </h6>
           <div className="absolute w-[60px] h-[130px] lg:w-[130px] lg:h-[200px] -top-14 right-0">
