@@ -14,7 +14,7 @@ export const MainNavigation = () => {
     <>
       <nav className="w-full bg-dark-red absolute lg:relative z-50">
         <div className={cn("w-[86%] mx-auto relative z-50", mrAlex.className)}>
-          <div className="w-16 h-32 lg:w-[120px] lg:h-[190px] absolute left-0 -top-4 lg:top-0">
+          <div className="w-16 h-32 lg:w-[120px] lg:h-[190px] absolute left-0 -top-4 lg:-top-1">
             <Image src="/images/logo.svg" alt="logo" fill />
           </div>
           <ul className="items-center justify-end gap-x-12 text-neutral-300 py-3 hidden lg:flex">

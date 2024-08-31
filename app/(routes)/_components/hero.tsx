@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const Hero = () => {
   return (
-    <section className="bg-yellow-cus relative lg:h-[91vh] pt-32 pb-20 lg:py-0">
+    <section className="bg-yellow-cus relative pt-32 pb-20 lg:pt-[187px] lg:pb-[70px]">
       <div className="max-w-[91%] lg:max-w-[86%] mx-auto flex items-center h-full">
         <div className="max-w-[600px] md:w-1/2 flex flex-col">
           <span className={cn("text-[22px] font-medium", dmSans.className)}>Genuine Flavors in Every Bite</span>
