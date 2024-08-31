@@ -11,7 +11,7 @@ export const Footer = () => {
           <h6 className="text-white text-2xl lg:text-[2rem] lg:leading-tight max-w-[86%] lg:max-w-[580px]">
             Come hungry, leave happy—let us bring the joy of Turkish cuisine to your event.
           </h6>
-          <div className="absolute w-[60px] h-[130px] lg:w-[130px] lg:h-[200px] -top-14 right-0">
+          <div className="absolute w-[60px] h-[130px] lg:w-[130px] lg:h-[200px] -top-[70px] right-0">
             <Image src="/images/logo.svg" alt="logo" fill className="" />
           </div>
         </div>
